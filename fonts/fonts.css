@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Roboto;
+  src:
+    url(./Roboto-Regular.woff2) format('woff2'),
+    url(./Roboto-Regular.woff) format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:
+    url(./Roboto-Bold.woff2) format('woff2'),
+    url(./Roboto-Bold.woff) format('woff');
+  font-weight: bold;
+  font-display: swap;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');*/
+/* @font-face {
+  font-family: Roboto;
+  src:
+    url(./roboto-cyrillic-200-normal.woff2) format('woff2'),
+    url(./roboto-cyrillic-ext-200-normal.woff) format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:
+    url(./roboto-cyrillic-900-normal.woff2) format('woff2'),
+    url(./roboto-cyrillic-ext-900-normal.woff) format('woff');
+  font-weight: bold;
+  font-display: swap;
+} */

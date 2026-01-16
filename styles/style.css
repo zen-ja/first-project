@@ -1,0 +1,174 @@
+.header {
+ display: flex;
+ flex-direction: column;
+ justify-items: center;
+ align-items: center;
+ padding-top: 135px;
+ padding-bottom: 68px;
+ background-color: #FFF;
+}
+
+.header__title {
+  padding-bottom: 12px;
+  color: #161D25;
+  font-weight: 900;
+  font-size: 38px;
+  letter-spacing: 0.001em;
+}
+
+.header__text{
+  justify-content: center;
+  padding-top:2px ;
+  color: #5D7085;
+  font-size: 22px;
+  letter-spacing: 0.001em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  max-height: 601px; 
+  background-color: #FFF;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 31px 170px 41px 1fr 3fr 2fr;
+  align-content: center;
+  width: 266px;
+  border-radius: 2px;
+  color:  #FFF;
+}
+
+.card__star-label {
+  visibility: hidden;
+  display: inline-flex;
+  justify-content: center;
+  align-items: start;
+  gap: 5px;
+  padding-top: 9px;
+  background: linear-gradient(180deg, #63D6FE,#5DD4F8);  
+}
+
+.card__star-img {
+  width: 12px;
+  height: 11px;
+}
+
+.card__star-text {
+  font-size: 14px;
+}
+
+.card__star_visible {
+  visibility: visible;
+}
+
+.card__image {
+  justify-self: center;
+  align-self: center; 
+}
+
+.card__personal {
+  background: linear-gradient(0deg, #E6C434, #FDC624);
+}
+
+.card__personal-img {
+  width: 196px;
+  height: 114px;
+  margin-top: 30px;
+}
+
+.card__business {
+  background: linear-gradient(0deg, #3DCAD4, #55DCE7);
+}
+
+.card__business-img {
+  width: 172px;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.card__developer {
+  background: linear-gradient(0deg, #3DACFC, #6BDFFF);
+}
+
+.card__developer-img {
+  width: 180px;
+  height: 142px;
+  /* margin-top: 20px; */
+}
+
+.card__agency {
+  background: linear-gradient(0deg,#939FB3,#BFCEDC); 
+}
+
+.card__agency-img {
+  width: 170px;
+  height: 124px;
+  margin-top: 25px;
+}
+
+.card__header {
+  padding-left: 35px;
+}
+
+.card__title {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.card__description{
+  font-size: 12px;
+}
+
+.card__price {
+  display: flex;
+  margin-top: 25px;
+  padding-left: 35px;
+}
+
+.card__price01 {
+  font-weight: 800;
+  font-size: 67px;
+}
+
+.card__price-sign {
+  padding-top: 3px;
+  font-size: 16px;
+}
+
+.card__features {
+  padding-top: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  list-style-image: url('../images/Done.svg');
+}
+
+.card__features li {
+  margin-bottom: 1rem;
+  margin-left: 50px;
+  padding-left:5px;
+}
+
+.start {
+  justify-self: center;
+  align-content: center;
+  margin-bottom: 10px;
+}
+
+.start__button{
+  border-style: solid;
+  border-color: #FFF;
+  border-radius: 3px;
+  padding: 10px 52px;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.start__button_active {
+  color:  #44A9FD;
+  background-color: #FFF;
+}

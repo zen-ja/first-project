@@ -1,0 +1,55 @@
+:root {
+  --debug: 1px dashed red;
+}
+* {
+  outline: var(-debug);
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  color: #000;
+  background-color: #F5F5F5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+address,
+blockquote {
+  margin: 0;
+  padding: 0;
+  /* margin-block: 0; */
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  font: inherit;
+}
+
+ul {
+  list-style-type:  none;
+}
